@@ -12,6 +12,12 @@ namespace SoloLearn
         {
             // Prints Hello
             Console.WriteLine("Hello");
+            
+            /* Some long
+                comment text
+            */
+            int the_answer = 42;
+            Console.WriteLine(the_answer);
         }
     }
 }
