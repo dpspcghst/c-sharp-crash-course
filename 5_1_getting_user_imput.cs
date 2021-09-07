@@ -16,6 +16,9 @@ namespace SoloLearn
             your_name = Console.ReadLine();
             
             Console.WriteLine("Hello {0}", your_name);
+            
+            int age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("You are {0} years old", age);
         }
     }
 }
